@@ -1,0 +1,24 @@
+@media (min-width:0px) and (max-width:992px){
+
+/*nav start*/
+.navbar-light .navbar-nav .nav-link {
+    background: rgba(0, 0, 0, .5);
+    border-bottom: 2px solid #fff;
+    max-width: 140px;
+    margin-left: auto;
+    text-align: center;
+}
+.navbar-light .navbar-toggler {
+    color: white;
+    outline: 3px solid #87d37c !important;
+  }
+/*nav end*/
+
+/*header start*/
+.carousel-indicators [data-bs-target]{
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+}
+/*header end*/
+}
